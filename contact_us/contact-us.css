@@ -1,0 +1,158 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.section--div {
+  margin-top: 5rem;
+  height: 100%;
+  text-align: center;
+}
+
+.contact--us {
+  background-color: rgb(220, 222, 224);
+  width: 100%;
+  display: grid;
+  height: 100%;
+  margin: 3rem 3rem 3rem 0rem;
+}
+
+.contact__article {
+  display: flex;
+  width: 80%;
+  margin: 0rem 4rem 4rem 8rem;
+  background-color: white;
+}
+
+.name__div {
+  width: 25rem;
+  display: inline-grid;
+  margin: 1rem 0rem 0rem 0rem;
+}
+
+.message__div {
+  display: grid;
+}
+
+.contact__head {
+  margin: 4rem 4rem 1rem 4rem;
+}
+
+.images {
+  height: 2rem;
+  border-radius: 15px;
+}
+
+.contact-us__paragraph {
+  margin: 2rem 2rem 0rem 2rem;
+  width: 35rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact--div {
+  background-color: #95c3e6;
+  width: 40%;
+}
+
+.info--div {
+  list-style: none;
+  margin: 2rem 2rem 2rem 3rem;
+}
+
+.contact--div__ {
+  margin: 0rem 2rem 2rem 2rem;
+  width: 90%;
+  display: block;
+}
+
+#message {
+  height: 10rem;
+  width: 35rem;
+}
+
+/* .contact--us__ {
+  background-color: white;
+  margin: 2rem;
+  height: 18rem;
+  width: 20rem;
+} */
+
+.send__button {
+  height: 2rem;
+  width: 6rem;
+  margin-top: 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  background-color: #0082e6;
+}
+
+.send__button:hover,
+.send__button:active {
+  background-color: rgb(220, 222, 224);
+}
+
+.info--li {
+  list-style: none;
+  display: flex;
+}
+
+.info--paragraph {
+  margin: 1rem;
+}
+
+@media (max-width: 830px) {
+  .contact--us {
+    width: 100vw;
+    display: grid;
+    height: 100%;
+    margin: 3rem 3rem 3rem 0rem;
+  }
+
+  .contact--div {
+    width: 100%;
+    height: 30%;
+  }
+
+  .contact__article {
+    display: block;
+    width: 80%;
+    margin: 0rem 4rem 4rem 2.5rem;
+  }
+
+  #message {
+    height: 5rem;
+    width: 25rem;
+  }
+
+  .name__div {
+    width: 18rem;
+    height: 7.8rem;
+    margin-top: -1rem;
+  }
+
+  .section--div {
+    margin-top: 2rem;
+    height: 50%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact--div {
+    width: 100%;
+    height: 35%;
+  }
+
+  .contact-us__paragraph {
+    width: 67%;
+  }
+
+  .name__div {
+    width: 60%;
+  }
+
+  #message {
+    width: 90%;
+  }
+}

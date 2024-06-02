@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strategies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../shared.css" />
+    <link rel="stylesheet" href="strategies.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div>
+        <a href="../index.html" class="main-header__brand">
+          <h1>OMC</h1>
+        </a>
+      </div>
+      <nav class="main-nav">
+        <div class="sidebar">
+          <li onclick="hideSidebar()">
+            <a class="main-nav__item__1" href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26px"
+                viewBox="0 -960 960 960"
+                width="26px"
+                fill="#e8eaed"
+              >
+                <path
+                  d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                />
+              </svg>
+            </a>
+          </li>
+          <ul>
+            <li class="main-nav__item">
+              <a href="../index.html" class="main-header__brand">
+                <h1>OMC</h1>
+              </a>
+            </li>
+            <li class="main-nav__item" main-nav__item>
+              <a href="../about_us/index.html">About Us</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="../index.html#testimonials">Testimonials</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="../contact_us/index.html">Contact Us</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="../strategies/index.html">Strategies</a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="main-nav__item__">
+          <li class="main-nav__item" main-nav__item>
+            <a href="../about_us/index.html">About Us</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="../index.html#testimonials">Testimonials</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="../contact_us/index.html">Contact Us</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="../strategies/index.html">Strategies</a>
+          </li>
+        </ul>
+        <li class="main-nav__item___" onclick="showSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="26px"
+              viewBox="0 -960 960 960"
+              width="26px"
+              fill="#e8eaed"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              />
+            </svg>
+          </a>
+        </li>
+      </nav>
+    </header>
+    <section id="key-features">
+      <article class="main-section__1">
+        <img
+          class="key-feature__image"
+          src="../image/stractegies.jpg"
+          alt="testimonial_girl"
+        />
+        <div class="main-section__">
+          <h1 class="section-title">
+            Marketing with the right strategies will make you bloom
+          </h1>
+          <div class="line"></div>
+          <p class="section-text">
+            Online marketing course that makes you know your niche and navigate
+            to your things to take note when taking the course.
+          </p>
+          <div class="key-feature__tag">
+            <ul class="key-features__list">
+              <li class="key-feature">
+                <p class="key-features__description">
+                  Take your learning serious
+                </p>
+              </li>
+              <li class="key-feature">
+                <p class="key-features__description">Practice what you learn</p>
+              </li>
+              <li class="key-feature">
+                <p class="key-features__description">make the right decision</p>
+              </li>
+              <li class="key-feature">
+                <p class="key-features__description">
+                  Stay focused and positive
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </section>
+    <footer class="main-footer">
+      <nav>
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="#">Support</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="#">Terms of Use</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
